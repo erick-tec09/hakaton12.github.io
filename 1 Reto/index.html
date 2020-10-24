@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    
 </head>
 <body>
     
+
+
+    <div  class="container">
+        <label for="cars">Dropdown</label>
+       
+        <div class="caja" id="caja">
+            <p>Selecione</p>
+            <img src="images/flecha-desplegable.svg" alt="" class="caja__icon" id="icon">
+        </div>
+        <div class="lista" id="lista">
+          
+            <ul class="lista__items">
+                <li class="lista__item"><a class="lista__link"  href="#">Masculino</a></li>
+                <li class="lista__item"><a class="lista__link" href="#">Femenino</a></li>
+                <li class="lista__item"><a class="lista__link" href="#">No Definido</a></li>
+            </ul>
+
+        </div>
+        <p class="info">
+            Animacion evento click a la lista y el icono
+        </p>
+    </div>
+   
+   <script src="js/app.js"></script>
 </body>
 </html>
