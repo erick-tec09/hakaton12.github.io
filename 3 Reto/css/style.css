@@ -1,0 +1,146 @@
+*, *::before, *::after, body{
+
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body{
+  
+}
+.container{
+
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+p{
+    color: rgba(36, 36, 36, 0.705);
+    
+}
+
+
+.btn{
+
+    color: rgba(102, 101, 101, 0.808);
+   
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid rgba(136, 135, 135, 0.589);
+    margin: 10px 0px;
+    border-radius: 3px;
+    transition: ease-in-out 0.6s;
+
+}
+.btn:hover{
+  
+    background: rgb(233, 137, 42);
+    color: white;
+    border: none;
+    letter-spacing: 0.5px;
+   
+
+}
+img{
+    width: 20px;
+}
+.overlay{
+
+    background: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  
+    transition: ease-in-out 0.7s;
+    
+}
+
+
+.modal{
+
+   width: 600px;
+    border: 1px solid rgb(158, 158, 158);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px ;
+    border-radius: 2px;
+   
+   
+
+}
+.modal_head{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.title{
+    text-transform: uppercase;
+    margin: 10px 0px;
+    
+   
+}
+.icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.cuerpo{
+
+    color: rgba(36, 36, 36, 0.705);
+    height: 100px;
+}
+
+.modal_pie{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.modal__pie{
+
+  
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(102, 101, 101, 0.808);
+   
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid rgba(136, 135, 135, 0.589);
+    margin: 0px 10px;
+    border-radius: 3px;
+    transition: ease-in-out 0.6s;
+
+}
+.modal__pie--color{
+    background: teal;
+    color: white;
+    transition: all 0.5s;
+}
+.modal__pie--color:hover{
+    background: rgb(6, 200, 200);
+   
+}
+
+.active{
+ 
+    transition: ease-in-out 0.7s;
+    display: flex;
+    
+}
